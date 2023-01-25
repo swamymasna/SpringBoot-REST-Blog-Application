@@ -44,13 +44,15 @@ public class PostServiceImpl implements IPostService {
 		Post post = modelMapper.map(postDTO, Post.class);
 		Post savedPost = postRepository.save(post);
 		PostDTO savedPostResponse = modelMapper.map(savedPost, PostDTO.class);
-
+		
+// 		TODO: Commented Email Service 
 //		String subject = AppConstants.SUBJECT;
 //		String receiver = AppConstants.TO_ADDRESS;
 //		String body = readMailBody(savedPostResponse);
 //		String mailSent = emailUtils.sendEmail(subject, receiver, body);
 //		LOG.info(mailSent);
 //		System.out.println(mailSent);
+		
 		return savedPostResponse;
 	}
 
