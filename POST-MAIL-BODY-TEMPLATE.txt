@@ -1,0 +1,12 @@
+
+Welcome User {USER}.,
+
+Welcome to Blog Application..!
+
+Thank You For Your Post & Your Post Details are:
+
+Post Id : {POST-ID}
+Post Title : {POST-TITLE}
+Post Content : {POST-CONTENT}
+
+Thank You..!
